@@ -37,7 +37,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 
-Heroku Setup:
+## Heroku Setup:
 
 Firstly, check whether system install heroku:
 $ heroku --version
@@ -55,4 +55,12 @@ $ git push heroku master
 
 My heroku website is: https://dashboard.heroku.com/apps
 Repo for this app: https://dashboard.heroku.com/apps/obscure-crag-65125
-For more information, see the).
+
+## Rails command shortcut table
+
+Full command    |    Shortcut
+$ rails server       $ rails s
+$ rails console      $ rails c
+$ rails generate     $ rails g
+$ rails test         $ rails t
+$ bundle install     bundle
